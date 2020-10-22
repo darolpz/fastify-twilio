@@ -2,7 +2,7 @@
   "name": "fastify-twilio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server",
     "test": "tap test -bCRlist --no-coverage"
@@ -12,7 +12,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "fastify": "^2.15.1",
-    "jest": "^26.1.0"
+    "jest": "^26.1.0",
+    "twilio": "^3.50.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
